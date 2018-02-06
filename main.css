@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  color: darkslategray;
+}
+h1 {
+  text-align: center;
+}
+.article-container {
+  width: 40%;
+  display: inline-block;
+  margin: 2%;
+  vertical-align: top;
+  background-color: aquamarine;
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map*/
