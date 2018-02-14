@@ -12,7 +12,6 @@ class News extends Component {
     } else {
       initialData = window.__initialData__;
       // Passage state should be garbage collected
-      // also, avoids conflicts with other components with routing 
       delete window.__initialData__;
     }
 
@@ -20,7 +19,6 @@ class News extends Component {
   }
 
   // This is not called on the server, so can safely use it to do data fetching on the browswer when it doesnt come pre poppulated
-  // Fetch data only when needed.
   componentDidMount() {
     // Only fetch if no news in component's state
     if(!this.state.news) {
@@ -28,8 +26,6 @@ class News extends Component {
     }
   }
 
-  // Static method are used for placing utilitaries function 
-  // for a given class that doesn't belong to its instances
   static requestInitialData() {
     return fetch('http://localhost:3000/api/news')
       .then(response => response.json())

@@ -1,9 +1,9 @@
 const animations = [
   {
     id: 1,
-    title: "CNN Alcohol",
-    author: "Linn Fritz",
-    image: "https://cdn.dribbble.com/users/218750/screenshots/4178506/01_splash_instgram_1.gif"
+    title: "Cool Kid",
+    author: "Martin Kundby",
+    image: "https://cdn.dribbble.com/users/530738/screenshots/4189261/cool_kid_3_by_martin_kundby_motiondesigner.gif"
   },
   {
     id: 2,
@@ -19,9 +19,9 @@ const animations = [
   },
   {
     id: 4,
-    title: "Cool Kid",
-    author: "Martin Kundby",
-    image: "https://cdn.dribbble.com/users/530738/screenshots/4189261/cool_kid_3_by_martin_kundby_motiondesigner.gif"
+    title: "CNN Alcohol",
+    author: "Linn Fritz",
+    image: "https://cdn.dribbble.com/users/218750/screenshots/4178506/01_splash_instgram_1.gif"
   }
 ]
 

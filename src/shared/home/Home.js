@@ -10,7 +10,6 @@ const Home = () => (
       <Link to="/animations"><h1>Animations</h1></Link>
     </div>
     <div className="home-page__section">
-      {/* <img src="//media.npr.org/assets/img/2018/01/25/ap_643593901123-66167c4f8ca397dc031d01c5c824370f2a0a5b12-s800-c85.jpg" /> */}
       <img src={catImg} />
       <Link to="/news"><h1>News</h1></Link>
     </div>

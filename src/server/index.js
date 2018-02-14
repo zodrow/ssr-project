@@ -22,12 +22,6 @@ app.get("/api/animations", (req, res) => {
   res.json(dribbleAnimations);
 });
 
-// window.__initialData__ 
-  // Even though the markeup come prepopulated from the server 
-  // when react mounts the app in the browser it does not have the same data on it's state,  
-  // it builds a virtual dom that doesn't match the markup from the server, 
-  // to fix this the intial data needs to be known to the server and made avaliable to the component when it reaches the browser
-
 app.get("*", (req, res, next) => {
   const activeRoute = routes.find(route => matchPath(req.url, route));
   const requestInitialData = activeRoute.component.requestInitialData && activeRoute.component.requestInitialData();
